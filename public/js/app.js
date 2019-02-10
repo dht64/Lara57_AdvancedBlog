@@ -55808,6 +55808,11 @@ Vue.use(buefy__WEBPACK_IMPORTED_MODULE_0___default.a);
     el: '#app'
 });*/
 
+var app = new Vue({
+  el: '#app',
+  data: {}
+});
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
