@@ -1,11 +1,14 @@
-/* **********************
-   *** Text Overrides ***
-   ********************** */
-
+/*
+ * Text Overrides
+ */
 .is-muted {
 	color: $grey-light !important;
 }
 
 a.is-muted:hover {
 	color: $grey-dark !important;
+}
+
+.navbar-item img {
+    max-height: 2.5rem;
 }

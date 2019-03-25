@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSRF Token -->
+	<meta name="csrf-token" content="aMRrVxvH7UILll3H7VnO8zyVmjP1W5kRo225LysW">
+
+	<title>MANAGEMENT</title>
+
+	<!-- Scripts -->
+	<script src="http://localhost:8000/js/app.js" defer></script>
+
+	<!-- Fonts -->
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+
+	<!-- Styles -->
+	<link href="http://localhost:8000/css/app.css" rel="stylesheet">
+    </head>
+<body>
+	<nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="http://localhost:8000/home">
+        <img src="http://localhost:8000/images/logo.png" width="auto" height="40">
+      </a>
+
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item">
+          Learn
+        </a>
+        <a class="navbar-item">
+          Discuss
+        </a>
+        <a class="navbar-item">
+          Share
+        </a>
+      </div>
+
+      <div class="navbar-end">
+                <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Hey Author
+          </a>
+          <div class="navbar-dropdown is-right">
+            <a class="navbar-item">
+              <span class="icon"><i class="fa fa-user m-r-10"></i></span>
+              Profile
+            </a>
+            <a class="navbar-item">
+              <span class="icon"><i class="fa fa-bell m-r-10"></i></span>
+              Notifications
+            </a>
+            <a href="http://localhost:8000/manage/dashboard" class="navbar-item">
+              <span class="icon"><i class="fa fa-cog m-r-10"></i></span>
+              Manage
+            </a>
+            <hr class="navbar-divider">
+            <a class="navbar-item">
+              <span class="icon"><i class="fa fa-sign-out m-r-10"></i></span>
+              Logout
+            </a>
+          </div>
+        </div>
+              </div>
+    </div>
+  </div>  
+</nav>
+    <div class="side-menu">
+	<aside class="menu m-t-30 m-l-10">
+		<p class="menu-label">
+			General
+		</p>
+		<ul class="menu-list">
+			<li><a href="http://localhost:8000/manage/dashboard">Dashboard</a></li>
+		</ul>
+		<p class="menu-label">
+			Administration
+		</p>
+		<ul class="menu-list">
+			<li><a class="is-active" href="http://localhost:8000/manage/users">Manage Users</a></li>
+			<li><a href="#">Roles &amp; Permissions</a></li>
+			<li>
+				<a>Manage Your Team</a>
+				<ul>
+					<li><a>Members</a></li>
+					<li><a>Plugins</a></li>
+					<li><a>Add a member</a></li>
+				</ul>
+			</li>
+		</ul>
+	</aside>
+</div>
+	<div class="management-area" id="app">
+		<div class="flex-container">
+		<div class="columns m-t-10">
+			<div class="column">
+				<h1 class="title">Create New User</h1>
+			</div>
+		</div>
+		<hr class="m-t-10">
+		
+		<div class="columns">
+			<div class="column">
+				<form action="http://localhost:8000/manage/users" method="POST">
+					<div class="field">
+						<label for="name" class="label">Name</label>
+						<p class="control">
+							<input type="text" name="name" class="input" id="name">
+						</p>
+					</div>
+
+					<div class="field">
+						<label for="email" class="label">Email:</label>
+						<p class="control">
+							<input type="text" name="email" class="input" id="email">
+						</p>
+					</div>
+
+					<div class="field">
+			            <label for="password" class="label">Password</label>
+			            <p class="control">
+			            	<input type="text" class="input" name="password" id="password" placeholder="Manually give a password to this user" v-if="!auto_password">
+			             	<b-checkbox name="auto_generate" class="m-t-15" v-model="auto_password">Auto Generate Password</b-checkbox>
+			            </p>
+			        </div>
+
+					<button class="button is-success">Create User</button>
+				</form>				
+			</div>
+		</div>
+
+		</div> <!-- end of .flex-container -->
+    </div>
+
+    <!-- Scripts -->
+    	<script>
+		var app = new Vue({
+			el: '#app',
+			data: {
+				auto_password: true
+			}
+		});
+	</script>
+</body>
+</html>

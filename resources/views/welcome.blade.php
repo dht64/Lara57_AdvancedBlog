@@ -81,7 +81,9 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Advanced Blog 
+                    <hr>
+                    built with Laravel
                 </div>
 
                 <div class="links">

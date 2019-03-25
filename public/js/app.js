@@ -55807,11 +55807,12 @@ Vue.use(buefy__WEBPACK_IMPORTED_MODULE_0___default.a);
 /*const app = new Vue({
     el: '#app'
 });*/
-
-var app = new Vue({
-  el: '#app',
-  data: {}
-});
+// var app = new Vue({
+// 	el: '#app',
+// 	data: {
+// 		auto_password: true
+// 	}
+// });
 
 /***/ }),
 

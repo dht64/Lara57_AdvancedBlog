@@ -17424,9 +17424,9 @@ label.panel-block:hover {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
-/* **********************
-   *** Text Overrides ***
-   ********************** */
+/*
+ * Text Overrides
+ */
 
 .is-muted {
   color: #b5b5b5 !important;
@@ -17434,6 +17434,10 @@ label.panel-block:hover {
 
 a.is-muted:hover {
   color: #4a4a4a !important;
+}
+
+.navbar-item img {
+  max-height: 2.5rem;
 }
 
 .m-t-5 {
@@ -17818,5 +17822,24 @@ a.is-muted:hover {
 
 .p-r-100 {
   padding-right: 100px !important;
+}
+
+.side-menu {
+  position: absolute;
+  top: 4rem;
+  bottom: 0;
+  width: 200px;
+  overflow-y: scroll;
+}
+
+.management-area {
+  position: absolute;
+  top: 4rem;
+  left: 200px;
+  right: 0;
+}
+
+.flex-container {
+  margin: 10px 25px;
 }
 

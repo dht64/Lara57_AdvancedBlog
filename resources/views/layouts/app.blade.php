@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
+	<!-- CSRF Token -->
+	<meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+	<title>{{ config('app.name', 'Laravel') }}</title>
 
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+	<!-- Scripts -->
+	<script src="{{ asset('js/app.js') }}" defer></script>
 
-    <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+	<!-- Fonts -->
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
 
-    <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+	<!-- Styles -->
+	<link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    @yield('styles')
 </head>
 <body>
-    <div id="app">
+	@include('_includes.nav.main')
+
+	<div id="app">
+		@yield('content')
       {{--   <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
@@ -71,79 +75,82 @@
                 </div>
             </div>
         </nav> --}}
-        <nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
-          <div class="container">
-              <div class="navbar-brand">
-                <a class="navbar-item" href="{{route('home')}}">
-                  <img src="{{asset('images/bulma-logo.png')}}" width="112" height="28">
-              </a>
+       {{--  <nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
+        	<div class="container">
+        		<div class="navbar-brand">
+        			<a class="navbar-item" href="{{route('home')}}">
+        				<img src="{{asset('images/bulma-logo.png')}}" width="112" height="28">
+        			</a>
 
-              <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                  <span aria-hidden="true"></span>
-                  <span aria-hidden="true"></span>
-                  <span aria-hidden="true"></span>
-              </a>
-          </div>
+        			<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        				<span aria-hidden="true"></span>
+        				<span aria-hidden="true"></span>
+        				<span aria-hidden="true"></span>
+        			</a>
+        		</div>
 
-          <div id="navbarBasicExample" class="navbar-menu">
-            <div class="navbar-start">
-              <a class="navbar-item">
-                Learn
-            </a>
-            <a class="navbar-item">
-                Discuss
-            </a>
-            <a class="navbar-item">
-                Share
-            </a>
-        </div>
+        		<div id="navbarBasicExample" class="navbar-menu">
+        			<div class="navbar-start">
+        				<a class="navbar-item">
+        					Learn
+        				</a>
+        				<a class="navbar-item">
+        					Discuss
+        				</a>
+        				<a class="navbar-item">
+        					Share
+        				</a>
+        			</div>
 
-        <div class="navbar-end">
-            @if (Auth::guest())
-            <div class="navbar-item">
-              <div class="buttons">
-                <a href="{{route('register')}}" class="button is-primary">
-                  <strong>Sign up</strong>
-              </a>
-              <a href="{{route('login')}}" class="button is-light">
-                  Log in
-              </a>
-          </div>
-      </div>
-      @else
-      <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link">
-            Hey Tung
-        </a>
-        <div class="navbar-dropdown is-right">
-            <a class="navbar-item">
-                <span class="icon"><i class="fa fa-user m-r-10"></i></span>
-                Profile
-            </a>
-            <a class="navbar-item">
-                <span class="icon"><i class="fa fa-bell m-r-10"></i></span>
-                Notifications
-            </a>
-            <a class="navbar-item">
-                <span class="icon"><i class="fa fa-cog m-r-10"></i></span>
-                Settings
-            </a>
-            <hr class="navbar-divider">
-            <a class="navbar-item">
-                <span class="icon"><i class="fa fa-sign-out m-r-10"></i></span>
-                Logout
-            </a>
-        </div>
+        			<div class="navbar-end">
+        				@if (Auth::guest())
+        				<div class="navbar-item">
+        					<div class="buttons">
+        						<a href="{{route('register')}}" class="button is-primary">
+        							<strong>Sign up</strong>
+        						</a>
+        						<a href="{{route('login')}}" class="button is-light">
+        							Log in
+        						</a>
+        					</div>
+        				</div>
+        				@else
+        				<div class="navbar-item has-dropdown is-hoverable">
+        					<a class="navbar-link">
+        						Hey Tung
+        					</a>
+        					<div class="navbar-dropdown is-right">
+        						<a class="navbar-item">
+        							<span class="icon"><i class="fa fa-user m-r-10"></i></span>
+        							Profile
+        						</a>
+        						<a class="navbar-item">
+        							<span class="icon"><i class="fa fa-bell m-r-10"></i></span>
+        							Notifications
+        						</a>
+        						<a class="navbar-item">
+        							<span class="icon"><i class="fa fa-cog m-r-10"></i></span>
+        							Settings
+        						</a>
+        						<hr class="navbar-divider">
+        						<a class="navbar-item">
+        							<span class="icon"><i class="fa fa-sign-out m-r-10"></i></span>
+        							Logout
+        						</a>
+        					</div>
+        				</div>
+        				@endif
+        			</div>
+        		</div>
+        	</div>  
+        </nav> --}}
+
+       {{--  <main class="py-4">
+        	@yield('content')
+        </main> --}}
     </div>
-    @endif
-</div>
-</div>
-</div>  
-</nav>
 
-<main class="py-4">
-    @yield('content')
-</main>
-</div>
+    <!-- Scripts -->
+    @yield('scripts')
 </body>
 </html>

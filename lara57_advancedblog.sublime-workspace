@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"ove",
+				"overflow-y\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"gr",
+				"group"
+			],
+			[
+				"Laratr",
+				"LaratrustUserTrait"
+			],
+			[
+				"Lara",
+				"pg_lo_read_all"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"met",
+				"method=\"POST"
+			],
+			[
+				"imp",
+				"@import\t@import url(${0});"
+			],
+			[
 				"th",
 				"th\tTag"
 			],
@@ -320,10 +356,6 @@
 				"display"
 			],
 			[
-				"mar",
-				"margin"
-			],
-			[
 				"text",
 				"text-center"
 			],
@@ -350,10 +382,6 @@
 			[
 				"back",
 				"background-color"
-			],
-			[
-				"wid",
-				"width"
 			],
 			[
 				"c",
@@ -486,46 +514,44 @@
 			[
 				"inline",
 				"inline-block"
-			],
-			[
-				"tran",
-				"translateX()"
-			],
-			[
-				"pos",
-				"position"
-			],
-			[
-				"listst",
-				"list-style"
-			],
-			[
-				"file",
-				"files"
-			],
-			[
-				"me",
-				"messages"
-			],
-			[
-				"messa",
-				"messageService"
-			],
-			[
-				"Mess",
-				"Message"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "package.json",
+			"file": "resources/views/manage/users/index.blade.php",
 			"settings":
 			{
-				"buffer_size": 1094,
+				"buffer_size": 1360,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/_includes/nav/main.blade.php",
+			"settings":
+			{
+				"buffer_size": 2207,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/UserController.php",
+			"settings":
+			{
+				"buffer_size": 1602,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/sass/manage.scss",
+			"settings":
+			{
+				"buffer_size": 216,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -540,6 +566,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"Package Control: List Packages"
+			],
 			[
 				"pack",
 				"Package Control: Install Package"
@@ -606,10 +636,63 @@
 	},
 	"expanded_folders":
 	[
-		"/C/xampp/htdocs/lara57_advancedblog"
+		"/C/xampp/htdocs/lara57_advancedblog",
+		"/C/xampp/htdocs/lara57_advancedblog/app",
+		"/C/xampp/htdocs/lara57_advancedblog/app/Http",
+		"/C/xampp/htdocs/lara57_advancedblog/app/Http/Controllers",
+		"/C/xampp/htdocs/lara57_advancedblog/resources",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/js",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/sass",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/views",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/views/_includes",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/views/_includes/nav",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/views/layouts",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/views/manage",
+		"/C/xampp/htdocs/lara57_advancedblog/routes"
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/lara57_advancedblog/resources/views/layouts/manage.blade.php",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/sass/styles.scss",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/sass/app.scss",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/sass/helpers.scss",
+		"/C/xampp/htdocs/lara57_advancedblog/public/css/app.css",
+		"/C/xampp/htdocs/lara57_advancedblog/app/Http/Controllers/UserController.php",
+		"/C/xampp/htdocs/lara57_advancedblog/routes/web.php",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/views/_includes/nav/manage.blade.php",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/views/manage/dashboard.blade.php",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/sass/manage.scss",
+		"/C/xampp/htdocs/lara57_advancedblog/app/Http/Controllers/ManageController.php",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/views/_includes/nav/main.blade.php",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/views/layouts/app.blade.php",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/views/auth/passwords/reset.blade.php",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/views/auth/login.blade.php",
+		"/C/xampp/htdocs/lara57_advancedblog/config/laratrust_seeder.php",
+		"/C/xampp/htdocs/lara57_advancedblog/app/User.php",
+		"/C/xampp/htdocs/lara57_advancedblog/database/seeds/DatabaseSeeder.php",
+		"/C/xampp/htdocs/lara57_advancedblog/database/seeds/LaratrustSeeder.php",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/sass/overrides.scss",
+		"/C/xampp/htdocs/lara57_advancedblog/database/migrations/2019_02_19_212933_laratrust_setup_tables.php",
+		"/C/xampp/htdocs/lara57_advancedblog/app/Permission.php",
+		"/C/xampp/htdocs/lara57_advancedblog/app/Role.php",
+		"/C/xampp/htdocs/lara57_advancedblog/vendor/santigarcor/laratrust/src/Middleware/LaratrustRole.php",
+		"/C/xampp/htdocs/lara57_advancedblog/vendor/santigarcor/laratrust/src/Models/LaratrustRole.php",
+		"/C/xampp/htdocs/lara57_advancedblog/app/Providers/AppServiceProvider.php",
+		"/C/xampp/htdocs/lara57_advancedblog/.env",
+		"/C/xampp/htdocs/lara57_advancedblog/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/xampp/htdocs/lara57_advancedblog/config/laratrust.php",
+		"/C/xampp/htdocs/lara57_advancedblog/app/Http/Kernel.php",
+		"/C/xampp/htdocs/lara57_advancedblog/config/app.php",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/views/auth/register.blade.php",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/views/auth/passwords/email.blade.php",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/sass/_variables.scss",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/views/home.blade.php",
+		"/C/xampp/htdocs/lara57_advancedblog/node_modules/font-awesome/scss/font-awesome.scss",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/js/app.js",
+		"/C/xampp/htdocs/lara57_advancedblog/package.json",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/js/bootstrap.js",
+		"/C/xampp/htdocs/lara57_advancedblog/vendor/laravel/framework/src/Illuminate/Auth/MustVerifyEmail.php",
+		"/C/xampp/htdocs/lara57_advancedblog/.editorconfig",
 		"/C/xampp/htdocs/lara56_advancedblog/resources/views/manage/users/index.blade.php",
 		"/C/xampp/htdocs/lara56_advancedblog/resources/assets/sass/manage.scss",
 		"/C/xampp/htdocs/lara56_advancedblog/app/Http/Controllers/UserController.php",
@@ -696,48 +779,7 @@
 		"/C/xampp/htdocs/lavina_erp/app/Http/Controllers/Controller.php",
 		"/C/xampp/htdocs/lavina_erp/resources/views/bowner/supplier/create.blade.php",
 		"/C/xampp/htdocs/lavina_erp/resources/views/bowner/supplier/edit.blade.php",
-		"/C/xampp/htdocs/lavina_erp/app/Http/Controllers/CustomerController.php",
-		"/C/xampp/htdocs/lavina_erp/resources/views/bowner/humans/edit.blade.php",
-		"/C/xampp/htdocs/lavina_erp/resources/views/bowner/customer/edit.blade.php",
-		"/C/xampp/htdocs/lavina_erp/resources/views/bowner/customer/create.blade.php",
-		"/C/xampp/htdocs/lavina_erp/database/migrations/2016_08_25_085612_create_humans_table.php",
-		"/C/xampp/htdocs/lavina_erp/vendor/laravel/framework/src/Illuminate/Routing/Controller.php",
-		"/C/xampp/htdocs/lavina_erp/vendor/laravel/framework/src/Illuminate/Foundation/Validation/ValidatesRequests.php",
-		"/C/xampp/htdocs/lavina_erp/resources/views/bowner/humans/index.blade.php",
-		"/C/xampp/htdocs/lavina_erp/app/Http/Controllers/ChartController_order.php",
-		"/C/xampp/htdocs/lavina_erp/resources/views/bowner/customer/index.blade.php",
-		"/C/xampp/htdocs/lavina_erp/app/Product.php",
-		"/C/xampp/htdocs/lavina_erp/resources/views/admin/users/create.blade.php",
-		"/C/xampp/htdocs/lavina_erp/resources/views/layouts/app.blade.php",
-		"/C/xampp/htdocs/lavina_erp/resources/views/bowner/leaves/edit.blade.php",
-		"/C/xampp/htdocs/lavina_erp/database/seeds/MaterialTableSeeder.php",
-		"/C/xampp/htdocs/lavina_erp/database/seeds/ProductTableSeeder.php",
-		"/C/xampp/htdocs/lavina_erp/database/migrations/2016_09_21_141501_create_materials_table.php",
-		"/C/xampp/htdocs/lavina_erp/database/migrations/2016_09_19_105401_create_products_table.php",
-		"/C/xampp/htdocs/lavina_erp/database/migrations/2016_09_24_151342_create_purchases_table.php",
-		"/C/xampp/htdocs/lavina_erp/database/migrations/2016_09_20_071642_create_units_table.php",
-		"/C/xampp/htdocs/lavina_erp/database/migrations/2016_09_19_105348_create_customers_table.php",
-		"/C/xampp/htdocs/lavina_erp/database/migrations/2016_08_12_064435_add_photo_id_to_users.php",
-		"/C/xampp/htdocs/lavina_erp/public/css/style.css",
-		"/C/xampp/htdocs/lavina_erp/resources/views/bowner/leaves/index.blade.php",
-		"/C/xampp/htdocs/lavina_erp/resources/views/bowner/salaries/edit.blade.php",
-		"/C/xampp/htdocs/lavina_erp/app/Http/Controllers/LeavesController.php",
-		"/C/xampp/htdocs/lavina_erp/app/Leave.php",
-		"/C/xampp/htdocs/lavina_erp/app/Http/Controllers/Auth/LoginController.php",
-		"/C/xampp/htdocs/lavina_erp/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php",
-		"/C/xampp/htdocs/lavina_erp/resources/views/auth/login_origin.blade.php",
-		"/C/xampp/htdocs/lavina_erp/app/Http/Controllers/HomeController.php",
-		"/C/xampp/htdocs/lavina_erp/resources/views/layouts/app_origin.blade.php",
-		"/C/xampp/htdocs/lavina_erp/app/Http/Middleware/Authenticate.php",
-		"/C/xampp/htdocs/lavina_erp/app/Http/Middleware/RedirectIfAuthenticated.php",
-		"/C/xampp/htdocs/lavina_erp/app/Http/Middleware/BownerEmployee.php",
-		"/C/xampp/htdocs/lavina_erp/app/Http/Middleware/BownerManager.php",
-		"/C/xampp/htdocs/lavina_erp/app/Http/Kernel.php",
-		"/C/xampp/htdocs/lavina_erp/public/css/appstyle.css",
-		"/C/xampp/htdocs/lavina_erp/resources/views/bowner/chart/data/DailyByProduct",
-		"/C/xampp/htdocs/lavina_erp/database/migrations/2016_11_15_113424_create_productions_table.php",
-		"/C/xampp/htdocs/lavina_erp/database/seeds/UnitTableSeeder.php",
-		"/C/xampp/htdocs/lavina_erp/database/migrations/2016_08_30_103456_create_salaries_table.php"
+		"/C/xampp/htdocs/lavina_erp/app/Http/Controllers/CustomerController.php"
 	],
 	"find":
 	{
@@ -755,6 +797,24 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"session",
+			"password",
+			"Password",
+			"password",
+			"email",
+			"password",
+			"p",
+			"email",
+			"Email",
+			"email",
+			"contain",
+			"fas",
+			"fa-fw",
+			"fa",
+			"nav",
+			"hover",
+			"hoverable",
+			"component"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -777,33 +837,128 @@
 			[
 				{
 					"buffer": 0,
-					"file": "package.json",
+					"file": "resources/views/manage/users/index.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1094,
+						"buffer_size": 1360,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1094,
-								1094
+								475,
+								475
 							]
 						],
 						"settings":
 						{
-							"auto_complete": true,
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"SL.13.region_keys":
+							[
+							],
+							"SL.153.region_keys":
+							[
+							],
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 306.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/views/_includes/nav/main.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 459.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/Http/Controllers/UserController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1602,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								344,
+								344
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 51.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resources/sass/manage.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 216,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -865,6 +1020,26 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"web",
+				"routes\\web.php"
+			],
+			[
+				"manageco",
+				"app\\Http\\Controllers\\ManageController.php"
+			],
+			[
+				"appser",
+				"app\\Providers\\AppServiceProvider.php"
+			],
+			[
+				"must",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Auth\\MustVerifyEmail.php"
+			],
+			[
+				"",
+				".editorconfig"
+			],
 			[
 				"redirectifauthenticated",
 				"app\\Http\\Middleware\\RedirectIfAuthenticated.php"
