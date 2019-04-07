@@ -1,9 +1,15 @@
 <nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
   <div class="container">
     <div class="navbar-brand">
-      <a class="navbar-item" href="{{route('home')}}">
+      <a class="navbar-item is-paddingless brand-item" href="{{route('home')}}">
         <img src="{{asset('images/logo.png')}}" width="auto" height="40">
       </a>
+
+      @if (Request::segment(1) == "manage")
+        <a class="navbar-item is-hidden-desktop" id="admin-slideout-button">
+          <span class="icon"><i class="fa fa-arrow-circle-o-right"></i></span>
+        </a>
+      @endif
 
       <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
         <span aria-hidden="true"></span>
@@ -26,7 +32,8 @@
       </div>
 
       <div class="navbar-end">
-        @if (Auth::guest())
+        {{-- @if (Auth::guest()) --}}
+        @guest
         <div class="navbar-item">
           <div class="buttons">
             <a href="{{route('register')}}" class="button is-primary">
@@ -62,7 +69,7 @@
             </a>
           </div>
         </div>
-        @endif
+        @endguest
       </div>
     </div>
   </div>  

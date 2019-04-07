@@ -15213,18 +15213,19 @@ label.panel-block:hover {
   border-bottom: 1px solid #dbdbdb;
 }
 
-.datepicker .datepicker-body {
-  min-height: 16.25rem;
+.datepicker .datepicker-content {
+  height: 16.25rem;
 }
 
 .datepicker .datepicker-footer {
+  margin-top: 0.875rem;
   padding-top: 0.875rem;
   border-top: 1px solid #dbdbdb;
 }
 
 .datepicker .datepicker-table {
   display: table;
-  margin: 0 auto 0.875rem auto;
+  margin: 0 auto 0 auto;
 }
 
 .datepicker .datepicker-table .datepicker-cell {
@@ -15368,8 +15369,8 @@ label.panel-block:hover {
 }
 
 @media screen and (min-width: 769px) and (max-width: 1087px) {
-  .datepicker .datepicker-body {
-    min-height: 19.75rem;
+  .datepicker .datepicker-content {
+    height: 19.75rem;
   }
 
   .datepicker .datepicker-table .datepicker-cell {
@@ -15378,8 +15379,8 @@ label.panel-block:hover {
 }
 
 @media screen and (max-width: 768px) {
-  .datepicker .datepicker-body {
-    min-height: 12.75rem;
+  .datepicker .datepicker-content {
+    height: 12.75rem;
   }
 
   .datepicker .datepicker-table .datepicker-cell {
@@ -15556,8 +15557,8 @@ label.panel-block:hover {
   flex-shrink: 0;
 }
 
-.field.is-grouped .field + .field {
-  margin-left: 0.75rem;
+.field.is-grouped .field:not(:last-child) {
+  margin-right: 0.75rem;
 }
 
 .field.is-grouped .field.is-expanded {
@@ -15705,6 +15706,10 @@ label.panel-block:hover {
   .modal .animation-content {
     width: 100%;
   }
+}
+
+.modal .modal-content {
+  width: 100%;
 }
 
 .notices {
@@ -17824,12 +17829,36 @@ a.is-muted:hover {
   padding-right: 100px !important;
 }
 
-.side-menu {
-  position: absolute;
+#admin-side-menu {
+  position: fixed;
   top: 4rem;
+  left: -200px;
   bottom: 0;
   width: 200px;
   overflow-y: scroll;
+  transition: left 0.3s ease-in-out;
+  /*@media only screen and (min-width: 1024px) {
+  	left: 0;
+  }*/
+}
+
+#admin-side-menu.is-active {
+  left: 0;
+}
+
+@media screen and (min-width: 1088px) {
+  #admin-side-menu {
+    left: 0;
+  }
+}
+
+#admin-slideout-button {
+  transition: 0.3s;
+}
+
+#admin-slideout-button.is-active {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
 }
 
 .management-area {
@@ -17841,5 +17870,16 @@ a.is-muted:hover {
 
 .flex-container {
   margin: 10px 25px;
+}
+
+.submenu {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu-list li ul {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 

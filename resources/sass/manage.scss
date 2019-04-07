@@ -1,9 +1,28 @@
-.side-menu {
-	position: absolute;
+#admin-side-menu {
+	position: fixed;
 	top: 4rem;
+	left: -200px;
 	bottom: 0;
 	width: 200px;
 	overflow-y: scroll;
+	transition: left 0.3s ease-in-out;
+	&.is-active {
+		left: 0;
+	}
+	/*@media only screen and (min-width: 1024px) {
+		left: 0;
+	}*/
+	@include desktop {
+		left: 0;
+	}
+}
+
+#admin-slideout-button {
+  	transition: 0.3s;
+  	&.is-active {
+    	// transition: 0.3s;
+    	transform: rotateY(180deg);
+  	}
 }
 
 .management-area {
@@ -15,4 +34,15 @@
 
 .flex-container {
 	margin: 10px 25px;
+}
+
+.submenu {
+	max-height: 0;
+	overflow: hidden;
+	transition: all 0.2s ease-in-out;
+}
+
+.menu-list li ul {
+	margin-top: 0;
+	margin-bottom: 0;
 }

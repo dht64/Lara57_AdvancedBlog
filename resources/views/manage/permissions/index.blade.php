@@ -14,27 +14,29 @@
 
     <div class="card">
       <div class="card-content">
-        <table class="table is-narrow">
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Slug</th>
-              <th>Description</th>
-              <th></th>
-            </tr>
-          </thead>
-
-          <tbody>
-            @foreach ($permissions as $permission)
+        <div class="content">
+          <table class="table is-narrow">
+            <thead>
               <tr>
-                <th>{{$permission->display_name}}</th>
-                <td>{{$permission->name}}</td>
-                <td>{{$permission->description}}</td>
-                <td class="has-text-right"><a class="button is-outlined is-small m-r-5" href="{{route('permissions.show', $permission->id)}}">View</a><a class="button is-outlined is-small" href="{{route('permissions.edit', $permission->id)}}">Edit</a></td>
+                <th>Name</th>
+                <th>Slug</th>
+                <th>Description</th>
+                <th></th>
               </tr>
-            @endforeach
-          </tbody>
-        </table>
+            </thead>
+
+            <tbody>
+              @foreach ($permissions as $permission)
+                <tr>
+                  <th>{{$permission->display_name}}</th>
+                  <td>{{$permission->name}}</td>
+                  <td>{{$permission->description}}</td>
+                  <td class=""><a class="button is-outlined is-small m-r-5" href="{{route('permissions.show', $permission->id)}}">View</a><a class="button is-outlined is-small" href="{{route('permissions.edit', $permission->id)}}">Edit</a></td>
+                </tr>
+              @endforeach
+            </tbody>
+          </table>
+        </div>
       </div>
     </div> <!-- end of .card -->
   </div>
