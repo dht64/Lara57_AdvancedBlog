@@ -63,10 +63,11 @@
               Manage
             </a>
             <hr class="navbar-divider">
-            <a class="navbar-item">
+            <a href="{{route('logout')}}" class="navbar-item" onclick="event.preventDefault();document.getElementById('logout-form').submit();">
               <span class="icon"><i class="fa fa-sign-out m-r-10"></i></span>
               Logout
             </a>
+            @include('_includes.forms.logout')
           </div>
         </div>
         @endguest
