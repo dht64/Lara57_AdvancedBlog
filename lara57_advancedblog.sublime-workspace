@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"flex",
+				"flex-start\talign-items"
+			],
+			[
+				"end",
+				"endsection"
+			],
+			[
+				"set",
+				"setSubmenuStyles\tfunction"
+			],
+			[
+				"margin",
+				"marginBottom\twarning"
+			],
+			[
+				"margon",
+				"marginTop"
+			],
+			[
+				"ro",
+				"rotateY()\ttransform"
+			],
+			[
+				"trans",
+				"transform\tproperty"
+			],
+			[
 				"geE",
 				"getElementsByClassName\tmethod"
 			],
@@ -372,10 +400,6 @@
 				"unique"
 			],
 			[
-				"margin",
-				"margin-top"
-			],
-			[
 				"btn",
 				"btn-pink"
 			],
@@ -472,10 +496,6 @@
 				"text-center"
 			],
 			[
-				"flex",
-				"flex-basis"
-			],
-			[
 				"fle",
 				"flex-start"
 			],
@@ -494,55 +514,17 @@
 			[
 				"back",
 				"background-color"
-			],
-			[
-				"c",
-				"center"
-			],
-			[
-				"required",
-				"required_m_qty"
-			],
-			[
-				"requi",
-				"required_m_qty"
-			],
-			[
-				"p_",
-				"p_unit_equi"
-			],
-			[
-				"exrt",
-				"extra_qty"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "resources/views/_includes/nav/manage.blade.php",
+			"file": "resources/js/components/slugWidget.vue",
 			"settings":
 			{
-				"buffer_size": 997,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "resources/js/app.js",
-			"settings":
-			{
-				"buffer_size": 1241,
+				"buffer_size": 565,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/js/components/manage.js",
-			"settings":
-			{
-				"buffer_size": 517,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
 			}
 		}
 	],
@@ -628,29 +610,47 @@
 	"expanded_folders":
 	[
 		"/C/xampp/htdocs/lara57_advancedblog",
-		"/C/xampp/htdocs/lara57_advancedblog/app",
-		"/C/xampp/htdocs/lara57_advancedblog/public",
-		"/C/xampp/htdocs/lara57_advancedblog/public/js",
 		"/C/xampp/htdocs/lara57_advancedblog/resources",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/js",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/js/components",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/sass",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/_includes",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/views/_includes/forms",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/_includes/nav",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/layouts",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/manage",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/manage/permissions",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/views/manage/posts",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/manage/roles",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/manage/users",
 		"/C/xampp/htdocs/lara57_advancedblog/routes"
 	],
 	"file_history":
 	[
-		"/C/xampp/htdocs/lara57_advancedblog/resources/sass/manage.scss",
-		"/C/xampp/htdocs/lara57_advancedblog/package.json",
-		"/C/xampp/htdocs/lara57_advancedblog/resources/views/_includes/nav/main.blade.php",
-		"/C/xampp/htdocs/lara57_advancedblog/resources/js/bootstrap.js",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/js/app.js",
+		"/C/xampp/htdocs/lara57_advancedblog/app/Http/Controllers/PostController.php",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/views/manage/posts/create.blade.php",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/sass/manage.scss",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/views/manage/posts/index.blade.php",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/views/manage/roles/create.blade.php",
+		"/C/xampp/htdocs/lara57_advancedblog/database/migrations/2019_04_09_213200_create_posts_table.php",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/views/_includes/nav/main.blade.php",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/views/_includes/nav/manage.blade.php",
+		"/C/xampp/htdocs/lara57_advancedblog/routes/web.php",
+		"/C/xampp/htdocs/lara57_advancedblog/config/laratrust.php",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/views/_includes/forms/logout.blade.php",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/js/manage.js",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/sass/styles.scss",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/sass/overrides.scss",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/sass/helpers.scss",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/views/layouts/manage.blade.php",
+		"/C/xampp/htdocs/lara57_advancedblog/config/app.php",
+		"/C/xampp/htdocs/lara57_advancedblog/vendor/devmarketer/easynav/src/DevMarketer/EasyNav/EasyNavServiceProvider.php",
+		"/C/xampp/htdocs/lara57_advancedblog/vendor/devmarketer/easynav/src/config/easynav.php",
+		"/C/xampp/htdocs/lara57_advancedblog/config/easynav.php",
+		"/C/xampp/htdocs/lara57_advancedblog/package.json",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/js/bootstrap.js",
 		"/E/Desktop/Data Science and Machine Learning with Python - Hands On - Shortcut.lnk",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/manage/permissions/index.blade.php",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/manage/users/index.blade.php",
@@ -661,14 +661,10 @@
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/manage/roles/edit.blade.php",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/manage/roles/show.blade.php",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/manage/users/show.blade.php",
-		"/C/xampp/htdocs/lara57_advancedblog/resources/views/manage/roles/create.blade.php",
 		"/C/xampp/htdocs/lara57_advancedblog/app/Http/Controllers/RoleController.php",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/manage/permissions/edit.blade.php",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/manage/permissions/create.blade.php",
 		"/C/xampp/htdocs/lara57_advancedblog/app/Http/Controllers/PermissionController.php",
-		"/C/xampp/htdocs/lara57_advancedblog/routes/web.php",
-		"/C/xampp/htdocs/lara57_advancedblog/resources/views/layouts/manage.blade.php",
-		"/C/xampp/htdocs/lara57_advancedblog/resources/views/_includes/nav/manage.blade.php",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/welcome.blade.php",
 		"/C/xampp/htdocs/lara57_advancedblog/app/Permission.php",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/manage/permissions/show.blade.php",
@@ -682,10 +678,7 @@
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/vendor/pagination/bootstrap-4.blade.php",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/vendor/pagination/default.blade.php",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/vendor/pagination/semantic-ui.blade.php",
-		"/C/xampp/htdocs/lara57_advancedblog/resources/sass/overrides.scss",
-		"/C/xampp/htdocs/lara57_advancedblog/resources/sass/styles.scss",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/sass/app.scss",
-		"/C/xampp/htdocs/lara57_advancedblog/resources/sass/helpers.scss",
 		"/C/xampp/htdocs/lara57_advancedblog/public/css/app.css",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/manage/dashboard.blade.php",
 		"/C/xampp/htdocs/lara57_advancedblog/app/Http/Controllers/ManageController.php",
@@ -702,9 +695,7 @@
 		"/C/xampp/htdocs/lara57_advancedblog/app/Providers/AppServiceProvider.php",
 		"/C/xampp/htdocs/lara57_advancedblog/.env",
 		"/C/xampp/htdocs/lara57_advancedblog/database/migrations/2014_10_12_000000_create_users_table.php",
-		"/C/xampp/htdocs/lara57_advancedblog/config/laratrust.php",
 		"/C/xampp/htdocs/lara57_advancedblog/app/Http/Kernel.php",
-		"/C/xampp/htdocs/lara57_advancedblog/config/app.php",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/auth/passwords/email.blade.php",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/sass/_variables.scss",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/home.blade.php",
@@ -764,16 +755,7 @@
 		"/C/xampp/htdocs/lavina_erp/resources/views/bowner/production/print.blade.php",
 		"/C/xampp/htdocs/lavina_erp/resources/views/orders/print.blade.php",
 		"/C/xampp/htdocs/lavina_erp/app/Http/Controllers/InventoryController.php",
-		"/C/xampp/htdocs/lavina_erp/resources/views/bowner/production/index-ori.blade.php",
-		"/C/xampp/htdocs/lavina_erp/resources/views/orders/edit-ori.blade.php",
-		"/C/xampp/htdocs/lavina_erp/resources/views/orders/edit-ỏi.blade.php",
-		"/C/xampp/htdocs/lavina_erp/app/Http/Controllers/OrderController-ori.php",
-		"/C/xampp/htdocs/lavina_erp/app/Http/Controllers/OrderDetailController.php",
-		"/C/xampp/htdocs/lavina_erp/app/Http/Controllers/BownerSalariesController.php",
-		"/C/xampp/htdocs/lavina_erp/app/Http/Controllers/BownerHumansController.php",
-		"/C/xampp/htdocs/lavina_erp/app/Human.php",
-		"/C/xampp/htdocs/lavina_erp/app/User.php",
-		"/C/xampp/htdocs/lavina_erp/database/seeds/UsersTableSeeder.php"
+		"/C/xampp/htdocs/lavina_erp/resources/views/bowner/production/index-ori.blade.php"
 	],
 	"find":
 	{
@@ -848,118 +830,32 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "resources/views/_includes/nav/manage.blade.php",
+					"file": "resources/js/components/slugWidget.vue",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 997,
+						"buffer_size": 565,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								638,
-								638
+								472,
+								472
 							]
 						],
 						"settings":
 						{
-							"auto_complete": false,
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 144.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "resources/js/app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1241,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"SL.93.region_keys":
-							[
-								"SL.jshint.Highlights.|bf0fa98157e394dfa5219aa7e45fa07073aea9b83426161f95e0a981232d1465|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
-								"sublime_linter.protected_regions"
-							],
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": false,
-								"indentSize": 4,
-								"tabSize": 4
-							},
-							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "resources/js/components/manage.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 517,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								508,
-								508
-							]
-						],
-						"settings":
-						{
-							"SL.94.region_keys":
-							[
-								"SL.jshint.Highlights.|7cd6b1fc97b371ce4d83681a28d4e6424b9471ba532d96111d58bec1f2b5c92f|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|444b28655d821465aa1251d913beb56d016a32c53618e358cfb3f7e9f6364871|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|90c1c9bfe0414ac62f7fb01bacd00994eda4670f21ab8e2bc67d337c448fd21f|region.yellowish markup.warning.sublime_linter|32",
-								"sublime_linter.protected_regions",
-								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
-								"SL.jshint.Highlights.|b6558962de2ed78e2ccf02d08572cf8bde41e94117b8ac51efbc311319e9648f|region.yellowish markup.warning.sublime_linter|32"
-							],
-							"auto_complete": false,
 							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": false,
-								"indentSize": 4,
-								"tabSize": 4
-							},
-							"use_tab_stops": false
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1031,6 +927,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"easynav",
+				"vendor\\devmarketer\\easynav\\src\\DevMarketer\\EasyNav\\EasyNavServiceProvider.php"
+			],
+			[
+				"easy",
+				"vendor\\devmarketer\\easynav\\src\\config\\easynav.php"
+			],
 			[
 				"web",
 				"routes\\web.php"
@@ -1108,7 +1012,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 220.0,
+	"side_bar_width": 215.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

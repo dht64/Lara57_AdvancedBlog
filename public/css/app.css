@@ -17883,3 +17883,73 @@ a.is-muted:hover {
   margin-bottom: 0;
 }
 
+.widget-area {
+  min-height: 75px;
+  padding: 10px;
+  border-bottom: 1px solid rgba(10, 10, 10, 0.1);
+}
+
+.widget-area.author-widget .selected-author {
+  display: flex;
+  align-content: flex-start;
+}
+
+.widget-area.author-widget .selected-author img {
+  border-radius: 25px;
+}
+
+.widget-area.author-widget .selected-author .author {
+  margin: auto 0 auto 10px;
+}
+
+.widget-area.author-widget .selected-author .author .subtitle {
+  font-weight: 300;
+  font-size: 0.8em;
+}
+
+.widget-area.post-status-widget .status {
+  display: flex;
+  align-content: flex-start;
+}
+
+.widget-area.post-status-widget .status .status-icon {
+  min-width: 50px;
+}
+
+.widget-area.post-status-widget .status .status-icon .icon {
+  width: 100%;
+}
+
+.widget-area.post-status-widget .status .status-icon .icon i {
+  text-align: center;
+}
+
+.widget-area.post-status-widget .status .status-details {
+  margin-left: 10px;
+}
+
+.widget-area.post-status-widget .status .status-details h4 {
+  font-weight: 400;
+}
+
+.widget-area.post-status-widget .status .status-details h4 span.status-emphasis {
+  font-weight: 800;
+}
+
+.widget-area.post-status-widget .status .status-details p {
+  font-weight: 300;
+  font-size: 0.8em;
+}
+
+.widget-area.publish-buttons-widget {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.widget-area.publish-buttons-widget .primary-action-button,
+.widget-area.publish-buttons-widget .secondary-action-button {
+  flex: 1;
+  margin: 0 5px;
+}
+
