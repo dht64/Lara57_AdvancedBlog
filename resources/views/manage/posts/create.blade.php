@@ -4,7 +4,7 @@
 <div class="flex-container">
 	<div class="columns m-t-10">
 		<div class="column">
-			<h1 class="title">This is the posts.create page</h1>
+			<h1 class="title">Add New Blog Post</h1>
 		</div>
 		<div class="column">
 			{{--  <a href="{{route('posts.create')}}" class="button is-primary is-pulled-right"><i class="fa fa-user-plus m-r-10"></i> Create New Post</a> --}}
@@ -21,8 +21,8 @@
 					</b-input>
 				</b-field>
 				
-				<slug-widget url="{{url('/')}}" subdirectory="blog" :title="title" @slug-changed="updateSlug"></slug-widget>
-				<input type="hidden" name="slug" v-model="slug">
+				<slug-widget url="{{url('/')}}" subdirectory="blog" :title="title" @copied="slugCopied" @slug-changed="updateSlug"></slug-widget>
+				<input type="hidden" v-model="slug" name="slug" />
 
 				<b-field class="m-t-30">
 					<b-input type="textarea" placeholder="Compose your masterpiece.." rows="10">
@@ -70,17 +70,20 @@
 <script type="text/javascript">
 	window.addEventListener('load', function(){
 		var app = new Vue({
-			el: '#app',
-			data: {
-				title: '',
-				slug: '',
-				api_token: '{{Auth::user()->api_token}}'
-			},
-			methods: {
-				updateSlug: function(val) {
-					this.slug = val;
-				}
-			}
+		      el: '#app',
+		      data: {
+		        title: '',
+		        slug: '',
+		        api_token: '{{Auth::user()->api_token}}'
+		      },
+		      methods: {
+		        updateSlug: function(val) {
+		          this.slug = val;
+		        },
+		        slugCopied: function(type, msg, val) {
+		          notifications.toast(msg, {type: `is-${type}`});
+		        }
+		      }
 		});
 	});
 </script>

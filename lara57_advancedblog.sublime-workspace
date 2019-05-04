@@ -4,8 +4,36 @@
 		"selected_items":
 		[
 			[
+				"sub",
+				"subdirectory"
+			],
+			[
+				"remo",
+				"removeChild〔function〕"
+			],
+			[
+				"b-d",
+				"b-dropdown-item"
+			],
+			[
+				"b-",
+				"b-icon"
+			],
+			[
+				"save",
+				"save-slug-button"
+			],
+			[
+				"custom",
+				"customSlug"
+			],
+			[
+				"reset",
+				"resetEditing"
+			],
+			[
 				"flex",
-				"flex-start\talign-items"
+				"flex-start\tjustify-content"
 			],
 			[
 				"end",
@@ -98,10 +126,6 @@
 			[
 				"reso",
 				"resource"
-			],
-			[
-				"sub",
-				"substr"
 			],
 			[
 				"permission",
@@ -490,43 +514,11 @@
 			[
 				"di",
 				"display"
-			],
-			[
-				"text",
-				"text-center"
-			],
-			[
-				"fle",
-				"flex-start"
-			],
-			[
-				"min",
-				"min-height"
-			],
-			[
-				"fl",
-				"flex"
-			],
-			[
-				"bacl",
-				"background-color"
-			],
-			[
-				"back",
-				"background-color"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "resources/js/components/slugWidget.vue",
-			"settings":
-			{
-				"buffer_size": 565,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -610,6 +602,10 @@
 	"expanded_folders":
 	[
 		"/C/xampp/htdocs/lara57_advancedblog",
+		"/C/xampp/htdocs/lara57_advancedblog/app",
+		"/C/xampp/htdocs/lara57_advancedblog/app/Http",
+		"/C/xampp/htdocs/lara57_advancedblog/app/Http/Controllers",
+		"/C/xampp/htdocs/lara57_advancedblog/app/Providers",
 		"/C/xampp/htdocs/lara57_advancedblog/resources",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/js",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/js/components",
@@ -628,28 +624,43 @@
 	],
 	"file_history":
 	[
-		"/C/xampp/htdocs/lara57_advancedblog/resources/js/app.js",
-		"/C/xampp/htdocs/lara57_advancedblog/app/Http/Controllers/PostController.php",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/js/components/slugWidget.vue",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/manage/posts/create.blade.php",
+		"/E/Downloads 08 (2019)/DevMarketer-ep_25/resources/assets/js/components/slugWidget.vue",
+		"/E/Downloads 08 (2019)/DevMarketer-ep_25/resources/views/manage/posts/create.blade.php",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/views/_includes/notifications/toast.blade.php",
+		"/C/xampp/htdocs/lara57_advancedblog/routes/web.php",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/views/layouts/app.blade.php",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/views/layouts/manage.blade.php",
+		"/C/xampp/htdocs/lara57_advancedblog/app/Http/Controllers/HomeController.php",
+		"/C/xampp/htdocs/lara57_advancedblog/config/laraflash.php",
+		"/C/xampp/htdocs/lara57_advancedblog/app/Http/Controllers/PostController.php",
+		"/C/xampp/htdocs/lara57_advancedblog/routes/api.php",
+		"/C/xampp/htdocs/lara57_advancedblog/database/seeds/LaratrustSeeder.php",
+		"/C/xampp/htdocs/lara57_advancedblog/app/Observers/UserObserver.php",
+		"/C/xampp/htdocs/lara57_advancedblog/app/Providers/ObserverServiceProvider.php",
+		"/C/xampp/htdocs/lara57_advancedblog/config/app.php",
+		"/C/xampp/htdocs/lara57_advancedblog/app/Providers/AppServiceProvider.php",
+		"/C/xampp/htdocs/lara57_advancedblog/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/views/welcome.blade.php",
+		"/C/xampp/htdocs/lara57_advancedblog/resources/js/app.js",
+		"/C/xampp/htdocs/lara57_advancedblog/package.json",
+		"/C/xampp/htdocs/lara57_advancedblog/package-lock.json",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/sass/manage.scss",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/manage/posts/index.blade.php",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/manage/roles/create.blade.php",
 		"/C/xampp/htdocs/lara57_advancedblog/database/migrations/2019_04_09_213200_create_posts_table.php",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/_includes/nav/main.blade.php",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/_includes/nav/manage.blade.php",
-		"/C/xampp/htdocs/lara57_advancedblog/routes/web.php",
 		"/C/xampp/htdocs/lara57_advancedblog/config/laratrust.php",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/_includes/forms/logout.blade.php",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/js/manage.js",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/sass/styles.scss",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/sass/overrides.scss",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/sass/helpers.scss",
-		"/C/xampp/htdocs/lara57_advancedblog/resources/views/layouts/manage.blade.php",
-		"/C/xampp/htdocs/lara57_advancedblog/config/app.php",
 		"/C/xampp/htdocs/lara57_advancedblog/vendor/devmarketer/easynav/src/DevMarketer/EasyNav/EasyNavServiceProvider.php",
 		"/C/xampp/htdocs/lara57_advancedblog/vendor/devmarketer/easynav/src/config/easynav.php",
 		"/C/xampp/htdocs/lara57_advancedblog/config/easynav.php",
-		"/C/xampp/htdocs/lara57_advancedblog/package.json",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/js/bootstrap.js",
 		"/E/Desktop/Data Science and Machine Learning with Python - Hands On - Shortcut.lnk",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/manage/permissions/index.blade.php",
@@ -665,7 +676,6 @@
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/manage/permissions/edit.blade.php",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/manage/permissions/create.blade.php",
 		"/C/xampp/htdocs/lara57_advancedblog/app/Http/Controllers/PermissionController.php",
-		"/C/xampp/htdocs/lara57_advancedblog/resources/views/welcome.blade.php",
 		"/C/xampp/htdocs/lara57_advancedblog/app/Permission.php",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/manage/permissions/show.blade.php",
 		"/C/xampp/htdocs/lara57_advancedblog/vendor/laravel/framework/src/Illuminate/Foundation/Validation/ValidatesRequests.php",
@@ -682,19 +692,15 @@
 		"/C/xampp/htdocs/lara57_advancedblog/public/css/app.css",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/manage/dashboard.blade.php",
 		"/C/xampp/htdocs/lara57_advancedblog/app/Http/Controllers/ManageController.php",
-		"/C/xampp/htdocs/lara57_advancedblog/resources/views/layouts/app.blade.php",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/auth/passwords/reset.blade.php",
 		"/C/xampp/htdocs/lara57_advancedblog/config/laratrust_seeder.php",
 		"/C/xampp/htdocs/lara57_advancedblog/app/User.php",
 		"/C/xampp/htdocs/lara57_advancedblog/database/seeds/DatabaseSeeder.php",
-		"/C/xampp/htdocs/lara57_advancedblog/database/seeds/LaratrustSeeder.php",
 		"/C/xampp/htdocs/lara57_advancedblog/database/migrations/2019_02_19_212933_laratrust_setup_tables.php",
 		"/C/xampp/htdocs/lara57_advancedblog/app/Role.php",
 		"/C/xampp/htdocs/lara57_advancedblog/vendor/santigarcor/laratrust/src/Middleware/LaratrustRole.php",
 		"/C/xampp/htdocs/lara57_advancedblog/vendor/santigarcor/laratrust/src/Models/LaratrustRole.php",
-		"/C/xampp/htdocs/lara57_advancedblog/app/Providers/AppServiceProvider.php",
 		"/C/xampp/htdocs/lara57_advancedblog/.env",
-		"/C/xampp/htdocs/lara57_advancedblog/database/migrations/2014_10_12_000000_create_users_table.php",
 		"/C/xampp/htdocs/lara57_advancedblog/app/Http/Kernel.php",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/views/auth/passwords/email.blade.php",
 		"/C/xampp/htdocs/lara57_advancedblog/resources/sass/_variables.scss",
@@ -745,21 +751,11 @@
 		"/C/xampp/htdocs/lavina_erp/database/migrations/2016_09_19_104036_create_orders_table.php",
 		"/C/xampp/htdocs/lavina_erp/resources/views/orders/edit.blade.php",
 		"/C/xampp/htdocs/lavina_erp/resources/views/bowner/salaries/index.blade.php",
-		"/C/xampp/htdocs/lavina_erp/resources/views/bowner/production/index.blade.php",
-		"/C/xampp/htdocs/lavina_erp/app/Http/Controllers/ProductionController.php",
-		"/C/xampp/htdocs/lavina_erp/bootstrap/cache/services-ori.php",
-		"/C/xampp/htdocs/lavina_erp/resources/views/bowner/inventories/purchase/create.blade.php",
-		"/C/xampp/htdocs/lavina_erp/database/migrations/2016_11_22_051212_create_order_details_table.php",
-		"/C/xampp/htdocs/lavina_erp/resources/views/bowner/humans/create.blade.php",
-		"/C/xampp/htdocs/lavina_erp/resources/views/layouts/admin.blade.php",
-		"/C/xampp/htdocs/lavina_erp/resources/views/bowner/production/print.blade.php",
-		"/C/xampp/htdocs/lavina_erp/resources/views/orders/print.blade.php",
-		"/C/xampp/htdocs/lavina_erp/app/Http/Controllers/InventoryController.php",
-		"/C/xampp/htdocs/lavina_erp/resources/views/bowner/production/index-ori.blade.php"
+		"/C/xampp/htdocs/lavina_erp/resources/views/bowner/production/index.blade.php"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -773,6 +769,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"length",
+			"measureText",
+			"adjustWidth",
+			"urlSanitized",
+			"stop",
 			"display_name",
 			"h1",
 			"custom",
@@ -830,40 +831,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "resources/js/components/slugWidget.vue",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 565,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								472,
-								472
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
